@@ -7,7 +7,7 @@ Esse projeto foi desenvolvido usando o *Unity* como game engine, afim de explora
 Para a execução do projeto é necessário a instalação do *Unity* na versão __*2023.2.11f1.*__
 ## Desenvolvimento Visual
 ### Assets Utilizados
-Para o desenvolvimento da cena, foi necessáris a instalação dos seguintes assets de uso livre: 
+Para o desenvolvimento da cena, foi necessário a instalação dos seguintes assets de uso livre: 
 + Casa
 ![AssetCasa](https://github.com/LehLapa/Raycast/assets/128320607/3378951d-e8bb-46ef-a14d-05901581f780)
 + Floresta
