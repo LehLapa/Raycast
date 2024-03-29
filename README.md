@@ -6,7 +6,7 @@ Esse projeto foi desenvolvido usando a Game Engine *Unity*, afim de explorar as 
 - Aluna: Fernanda Viana Marcelino
 - Aluna: Letícia da Lapa Silva
 
-**Cursando:** ETEC Professor Basilides de Godoy - Ensino Médio Integrado ao Curso Técnico de Programação de Jogos Digitais. 3ºA/2024
+**Cursando:** ETEC Professor Basilides de Godoy - Ensino Médio com Habilitação Profissional Técnico em Programação de Jogos Digitais. 3ºA/2024
 ### Requisitos 
 Para a execução do projeto é necessário a instalação do *Unity* na versão __*2023.2.11f1.*__
 ## Desenvolvimento Visual
