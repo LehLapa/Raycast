@@ -1,10 +1,10 @@
 # Raycast
 ## Descrição
-
+Esse projeto foi desenvolvido usando o Unity como game engine, afim de explorar as funcionalidades do RayCast. O jogador tem como objetivo eliminar as esferas que são geradas automaticamente. 
 ## Criadores
-
++ Fernanda Viana e Letícia Lapa
 # Requisitos 
-
+Para a execução do projeto é necessário a instalação do Unity na versão 2023.2.11f1.
 # Desenvolvimento Visual
 ## Assets Utilizados
 Para o desenvolvimento da cena, foi necessários a instalação dos seguintes assets de uso livre: 
@@ -12,7 +12,7 @@ Para o desenvolvimento da cena, foi necessários a instalação dos seguintes as
 ![AssetCasa](https://github.com/LehLapa/Raycast/assets/128320607/3378951d-e8bb-46ef-a14d-05901581f780)
 + Floresta
 ![AssetFloresta](https://github.com/LehLapa/Raycast/assets/128320607/2de34dca-01a0-4794-8a29-bbe487e34cb6)
-+ Criação
++ SkyBox
 ![SkyBox](https://github.com/LehLapa/Raycast/assets/128320607/d88a6787-acfd-4f69-8e9e-1a3e2abc3122)
 
 ## Processo de Criação da Cena
@@ -27,6 +27,10 @@ Para criar o design da cena seguimos os seguintes passos:
 ![passo4](https://github.com/LehLapa/Raycast/assets/128320607/53d7fd68-368a-4a63-8beb-053d8f28950f)
 
 ## Imagens de Gameplay
+A seguir, as imagens do jogo em execução, podendo observar que as esferas continuam sendo geradas em diversas posições, mesmo quando as anteriores são detruidas. 
+![game1](https://github.com/LehLapa/Raycast/assets/128320607/e5b206fc-47c1-4249-852d-c199890fea5c)
+![game2](https://github.com/LehLapa/Raycast/assets/128320607/83bee11a-d38f-4f4e-b64f-2515505c11ee)
 
 # Scripts
+
 
