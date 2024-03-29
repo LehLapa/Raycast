@@ -1,14 +1,18 @@
 # Raycast
 ### Descrição
-Esse projeto foi desenvolvido usando o *Unity* como game engine, afim de explorar as funcionalidades do *RayCast*. O jogador tem como objetivo eliminar as esferas que são geradas automaticamente. 
+Esse projeto foi desenvolvido usando a Game Engine *Unity*, afim de explorar as funcionalidades do *RayCast*. O jogador tem como objetivo eliminar as esferas que são geradas automaticamente. 
+
 ### Criadores
-+ Fernanda Viana e Letícia Lapa
+- Aluna: Fernanda Viana Marcelino
+- Aluna: Letícia da Lapa Silva
+
+Cursando: ETEC Professor Basilides de Godoy - Ensino Médio Integrado ao Curso Técnico de Programação de Jogos Digitais. 3ºA/2024
 ### Requisitos 
 Para a execução do projeto é necessário a instalação do *Unity* na versão __*2023.2.11f1.*__
 ## Desenvolvimento Visual
 ### Assets Utilizados
 Para o desenvolvimento da cena, foi necessário a instalação dos seguintes assets de uso livre: 
-+ Casa
++ Casas
 ![AssetCasa](https://github.com/LehLapa/Raycast/assets/128320607/3378951d-e8bb-46ef-a14d-05901581f780)
 + Floresta
 ![AssetFloresta](https://github.com/LehLapa/Raycast/assets/128320607/2de34dca-01a0-4794-8a29-bbe487e34cb6)
