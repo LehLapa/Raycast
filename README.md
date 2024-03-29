@@ -32,5 +32,77 @@ A seguir, as imagens do jogo em execução, podendo observar que as esferas cont
 ![game2](https://github.com/LehLapa/Raycast/assets/128320607/83bee11a-d38f-4f4e-b64f-2515505c11ee)
 
 # Scripts
+Para a criação do código seguimos os seguintes passos: 
++ Iniciando o código, declaramos os atributos e métodos que iremos utilizar, como: `Ray`, `RaycastHit`, `Vector3`, `Color` e a Câmera `(public Camera _ camera;)`
+No Start, iniciamos a coroutine e nosso método para gerar as esferas.
+
+```ruby
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class raycode : MonoBehaviour
+{
+
+    Ray ray;
+    RaycastHit hitData;
+    Vector3 point;
+    Color color;
+
+    public Camera _camera;
+    // Start is called before the first frame update
+    void Start()
+    {
+        Debug.Log("inicio!");
+        StartCoroutine(GerarTarget());
+    }
+
+````
++ Void Update é aplicado o lançamento do Ray, determinamos que raio será lançado pelo clique do botão direito do mouse e seguindo as cordenadas da posição do mouse na tela. 
+Void Lancar, toda a parte de Debug está sendo adicionada. Identificando se o alvo foi atingido e destruído ou não, esclarecendo posição e direção. Caso não tenha sido atingido, será retornado o valor "Target Missed".
+
+```ruby
+   void Update()
+    {
 
 
+        if (UnityEngine.Input.GetKey(KeyCode.Mouse0))
+        {
+
+            ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            color = Color.green;
+            Lancar(ray, color, 1);
+
+        }
+    }
+    private void Lancar(Ray ray, Color color, int tipo)
+    {
+        Debug.Log("Origem: " + ray.origin);
+        Debug.Log("Direções: " + ray.direction);
+
+        if (Physics.Raycast(ray, out hitData))
+        {
+            Vector3 hitPosition = hitData.point;
+            Debug.Log(" hitPosition:" + hitPosition);
+
+
+            float hitDistance = hitData.distance;
+            Debug.Log("Distancia: " + hitDistance);
+            string tag = hitData.collider.tag;
+            Debug.Log("Tag:" + tag);
+            GameObject hitObject = hitData.transform.gameObject;
+            Debug.DrawRay(ray.origin, hitPosition * hitDistance, color);
+            StartCoroutine(SphereIndicator(hitPosition, tipo));
+
+            if (tag == "target")
+                Destroy(hitObject);
+
+            else 
+            { 
+                Debug.DrawRay(ray.origin, ray.direction * 1000, Color.red);
+            }
+        }
+
+
+    }
+```
