@@ -9,6 +9,7 @@ Esse projeto foi desenvolvido usando a Game Engine *Unity*, afim de explorar as 
 **Cursando:** ETEC Professor Basilides de Godoy - Ensino Médio com Habilitação Profissional Técnico em Programação de Jogos Digitais. 3ºA/2024
 ### Requisitos 
 Para a execução do projeto é necessário a instalação do *Unity* na versão __*2023.2.11f1.*__
+Acesso para o Drive: https://drive.google.com/drive/u/0/folders/18h9f5nC51sQCjMsgSg5VzN2IYAmX-fRx
 ## Desenvolvimento Visual
 ### Assets Utilizados
 Para o desenvolvimento da cena, foi necessário a instalação dos seguintes assets de uso livre: 
