@@ -1,4 +1,4 @@
-# Raycast
+# Raycast (Game Engine Unity)
 ### Descrição
 Esse projeto foi desenvolvido usando a Game Engine *Unity*, afim de explorar as funcionalidades do *RayCast*. O jogador tem como objetivo eliminar as esferas que são geradas automaticamente. 
 
