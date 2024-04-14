@@ -7,25 +7,27 @@ Esse projeto foi desenvolvido usando a Game Engine *Unity*, afim de explorar as 
 - Aluna: Letícia da Lapa Silva
 
 **Cursando:** ETEC Professor Basilides de Godoy - Ensino Médio com Habilitação Profissional Técnico em Programação de Jogos Digitais. 3ºA/2024
+##
 ### Requisitos 
 Para a execução do projeto é necessário a instalação do *Unity* na versão __*2023.2.11f1.*__
 
 Acesso para o Drive: https://drive.google.com/drive/u/0/folders/18h9f5nC51sQCjMsgSg5VzN2IYAmX-fRx
+##
 ## Desenvolvimento Visual
 ### Assets Utilizados
 Para o desenvolvimento da cena, foi necessário a instalação dos seguintes assets de uso livre: 
-+ Casas
++ **Casas**
   
 ![AssetCasa](https://github.com/LehLapa/Raycast/assets/128320607/3378951d-e8bb-46ef-a14d-05901581f780)
 
-+ Floresta
++ **Floresta**
   
 ![AssetFloresta](https://github.com/LehLapa/Raycast/assets/128320607/2de34dca-01a0-4794-8a29-bbe487e34cb6)
 
-+ SkyBox
++ **SkyBox**
   
 ![SkyBox](https://github.com/LehLapa/Raycast/assets/128320607/d88a6787-acfd-4f69-8e9e-1a3e2abc3122)
-
+##
 ### Processo de Criação da Cena
 Para criar o design da cena seguimos os seguintes passos: 
 1. Adicionamos o chão e os assets da casa na cena
@@ -43,7 +45,7 @@ Para criar o design da cena seguimos os seguintes passos:
 4. Adicionamos as luzes e o GameObject das esferas
 
 ![passo4](https://github.com/LehLapa/Raycast/assets/128320607/53d7fd68-368a-4a63-8beb-053d8f28950f)
-
+##
 ### Imagens de Gameplay
 A seguir, as imagens do jogo em execução, podendo observar que as esferas continuam sendo geradas em diversas posições, mesmo quando as anteriores são detruidas. 
 
